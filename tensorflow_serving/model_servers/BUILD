@@ -281,6 +281,7 @@ cc_library(
 SUPPORTED_TENSORFLOW_OPS = [
     "@org_tensorflow//tensorflow/contrib:contrib_kernels",
     "@org_tensorflow//tensorflow/contrib:contrib_ops_op_lib",
+    "@org_tensorflow//tensorflow/contrib/tensorrt:trt_engine_op_kernel",
 ]
 
 TENSORFLOW_DEPS = [
